@@ -1,0 +1,47 @@
+1. Import Libraries
+
+Import:
+
+Pandas
+Matplotlib
+Seaborn
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+2: 
+Load the dataset
+
+tips = sns.load_dataset("tips")
+
+3. Create Charts in BOTH Libraries
+
+You must create the same chart twice:
+
+once using Matplotlib
+once using Seaborn
+
+Charts required:
+
+Histogram
+Bar Chart
+Box Plot
+Scatter Plot
+Heatmap of correlations
+
+4. Customize the Charts
+
+Add:
+
+Titles
+X and Y labels
+Font sizes
+Colors / palettes
+Figure size
+
+plt.title("Total Bill Distribution", fontsize=16)
+plt.xlabel("Total Bill")
+plt.ylabel("Frequency")
+
+5. Save One Chart as PNG
+plt.savefig("chart.png")
